@@ -16,4 +16,4 @@ IAM_ROLE="india-vm-s3-role"
 KEY_FILE="$HOME/.ssh/${KEY_NAME}.pem"
 
 #--- Aws Profile --
-AWS_PROFILE="amitkmishra221-admin"
+AWS_PROFILE="aws-india"

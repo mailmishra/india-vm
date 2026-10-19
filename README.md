@@ -27,10 +27,10 @@ Anything on the VM's `C:` drive is **lost on termination**. Keep files on `Z:`.
 
 ## Setup and run
 
-1. **Log in to AWS** with your admin profile (here `amitkmishra221-admin`):
+1. **Log in to AWS** with the `aws-india` profile (admin-level, region `ap-south-1`):
    ```
-   aws login --profile amitkmishra221-admin
-   export AWS_PROFILE=amitkmishra221-admin
+   aws login --profile aws-india
+   export AWS_PROFILE=aws-india
    aws sts get-caller-identity     # confirm it works
    ```
    Sessions expire; if you see "session has expired", run `aws login` again. The `AWS_PROFILE` line in `config.sh` is not exported, so set it in your shell as above.
